@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, my name is sharoon and rafay and this is my app!"
+    return "<h1>Hello, my name is <span style='color:green;'>Sharoon</span> and Rafay, and this is my app!</h1>"
 
 if __name__ == '__main__':
     app.run(debug=True)
